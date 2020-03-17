@@ -1,0 +1,13 @@
+ul {
+    color: red;
+    list-style-image: url(img/seta.png);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    
+}
+li {
+    border-bottom: red 1px dotted;
+}
+li:hover {
+    list-style-image: url(img/seta2.png);
+}

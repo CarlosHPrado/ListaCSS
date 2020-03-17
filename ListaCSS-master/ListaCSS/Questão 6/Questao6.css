@@ -1,0 +1,14 @@
+h2 {
+    color: red;
+}
+div {
+    width: 30%;
+    height: 40%;
+}
+
+div h2:hover {
+    text-decoration: underline red;
+}
+div .foto:hover {
+    border-image-outset: 10px red;
+}

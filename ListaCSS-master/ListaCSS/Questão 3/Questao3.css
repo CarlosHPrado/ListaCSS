@@ -1,0 +1,24 @@
+#image {
+    position: relative;
+    width: 500px;
+    height: 350px;
+}
+.image .new{
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.image .old{
+    width: 720px;
+    height: 405;
+}
+.image:hover .new {
+    visibility: visible;
+    opacity: 1;
+}
+.image:hover .old {
+    visibility: hidden;
+    opacity: 1;
+}

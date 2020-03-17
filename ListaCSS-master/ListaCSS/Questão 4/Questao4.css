@@ -1,0 +1,53 @@
+.navbar {
+    width: 40%;
+    height: 20px;
+    border: 1px solid blue;  
+    margin: 0 auto;  
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    
+
+}
+ul {
+    list-style: none;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.logo {
+    width: 100px;
+    height: 40px;
+    float: left;
+}
+div.navbar ul.news {
+    color: red;
+}
+div.navbar ul.sport {
+    color: #3B9C00;
+}
+div.navbar ul.ent{
+    color: #FF7F00;
+}
+div.navbar ul.vid{
+    color: blue;
+}
+div.navbar ul.news:hover {
+    text-decoration: overline red;
+}
+div.navbar ul.sport:hover {
+    text-decoration: overline #3B9C00;
+}
+div.navbar ul.ent:hover{
+    text-decoration: overline #FF7F00;
+}
+div.navbar ul.vid:hover{
+    text-decoration: overline blue;
+}
+
+
+
+
+
+
